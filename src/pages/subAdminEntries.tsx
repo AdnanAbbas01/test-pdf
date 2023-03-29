@@ -262,6 +262,7 @@ const handleNextPage = () => {
   doc.addFileToVFS("Arialbd.ttf", font);
     doc.addFont("Arialbd.ttf", "Arialbd", "normal");
     doc.setFont('Arialbd');
+    console.log(doc.getFont())
   let iterationNumber=0;  // check the iteration to add new page 
   for (const item of DataForPdf){
   
